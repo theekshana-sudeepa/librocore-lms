@@ -1,0 +1,40 @@
+# Build & Packaging Outputs
+/dist/
+/build/
+*.class
+*.war
+*.ear
+
+# NetBeans & IDE Private Metadata
+/nbproject/private/
+.idea/
+.vscode/
+*.iml
+
+# Secrets & Environment Configuration
+db.properties
+.env
+.env.*
+!db.properties.example
+!.env.example
+
+# Local Documentation & Raw Extracted Captures (Keep Local Only)
+/*.pdf
+assets/extracted/
+scripts/generate_all_slides.py
+1231.gif
+
+# Runtime-Generated Patron & Book QR/Barcode PDFs
+src/userqrcodes/*.pdf
+src/bookqrcodes/*.pdf
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS & Logs
+.DS_Store
+*/.DS_Store
+Thumbs.db
+*.log

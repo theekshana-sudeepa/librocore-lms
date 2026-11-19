@@ -1,0 +1,10 @@
+# ==============================================================================
+# LibroCore LMS — Database Configuration Template
+# Copy this file to `db.properties` and set your local MySQL credentials.
+# Never commit your real `db.properties` file to version control.
+# ==============================================================================
+db.host=127.0.0.1
+db.port=3307
+db.name=library_dbdb
+db.user=root
+db.password=CHANGE_ME
